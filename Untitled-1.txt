@@ -1,6 +1,16 @@
 *------------------------------------------------
 Use npm root -g, to see all the Global depencies
 ------------------------------------------------*
+*----------------
+  VS CODE SETTINGS
+-----------------*
+{
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+}
 
 Node.js
 -JS runtime that uses v8 engine
