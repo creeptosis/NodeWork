@@ -1,0 +1,45 @@
+*------------------------------------------------
+Use npm root -g, to see all the Global depencies
+------------------------------------------------*
+
+Node.js
+-JS runtime that uses v8 engine
+-Server side JS
+-Event driven, non-blocking I/O model
+*------------
+  MongoDB
+-------------*
+-Install custom at C:
+
+mongod --directoryperdb --dbpath C:\mongodb\data\db --logpath C:\mongodb\log\mongo.log --logappend --rest --install
+
+net start MongoDB
+mongo
+without net start you can't use the mongo command.
+
+*------------
+  mLAB & HEROKU
+-------------*
+mLab for virtual MongoDB
+Heroku for app hosting 
+
+*------------
+  Express
+-------------*
+npm install --save express
+
+*------------
+  nodemon
+-------------*
+-so you don't have to keep restarting server.
+npm install -g nodemon
+
+*--------------------
+How middleware works
+---------------------*
+
+app.use(function(req,res, next){
+  //console.log(Date.now());
+  req.name = 'Brad Traversey';
+  next();
+});
