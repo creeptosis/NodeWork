@@ -17,6 +17,11 @@ Node.js
 -Server side JS
 -Event driven, non-blocking I/O model
 *------------
+  live-server
+-------------*
+npm install -g live-server
+
+*------------
   MongoDB
 -------------*
 -Install custom at C:
